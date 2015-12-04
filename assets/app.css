@@ -1,0 +1,136 @@
+@font-face {
+  font-family: "Objektiv";
+  src: url("Dalton Maag - Objektiv Mk2 Black.ttf") format("truetype");
+}
+
+.contentSection {
+    min-width: 800px;
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    font-family: 'Objektiv', Helvetica, sans-serif;;
+}
+
+.header {
+    min-width: 800px;
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    height: 70px;
+    font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.header .logo {
+    float: left;
+    padding: 23px;
+}
+
+.header ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: block; 
+    text-align:center;
+    height:100%;
+}
+
+.header li {
+  display:inline;
+  vertical-align:middle;
+  line-height: 63px;
+}
+
+.header a {
+    color: #a7a7a7;
+    text-decoration: none;
+}
+
+.header .navButton {
+    height: 70px;
+    padding: 23px;
+}
+
+.header .navButton:hover {
+    background-color: #eaeaea;
+}
+
+.content {
+    width: 100%;
+}
+
+.contentSection {
+    height: 670px;
+}
+
+
+/*
+ FOOTER
+ */
+ .footer {
+    background-color: #1a1a1a;
+    color: #a7a7a7;
+ }
+.footer ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: block; 
+    text-align:center;
+    height:100%;
+}
+
+.footer li {
+  display:inline;
+  vertical-align:middle;
+  line-height: 63px;
+}
+
+.footer a {
+    color: #a7a7a7;
+    text-decoration: none;
+}
+
+.footer .navButton {
+    height: 70px;
+    padding: 23px;
+}
+
+.footer .logo {
+    float: right;
+}
+
+
+/*
+section 1
+*/
+
+.promo1 {
+    padding: 45px 0;
+}
+
+.promo1 span {
+    margin: 0 0 10px;
+}
+
+.promo1 .text1 {
+    font-size: 30px;
+    width: 100%;
+}
+
+.promo1 .text2 {
+    font-size: 44px;
+    width: 100%;
+}
+
+.promo1 .well {
+    background-color: #282828;
+    border-radius: 10px;
+    background: #000;
+    border-color: #282828;
+}
+
+.promo1 .promoText {
+    padding-top: 30px;
+}
